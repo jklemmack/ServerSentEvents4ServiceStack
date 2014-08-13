@@ -7,8 +7,8 @@
     <ProjectGuid>{73C71F6C-1627-417F-A89C-DAF25B39AD82}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SSServerSentEvents</RootNamespace>
-    <AssemblyName>SSServerSentEvents</AssemblyName>
+    <RootNamespace>SimpleServerEvents</RootNamespace>
+    <AssemblyName>SimpleServerEvents</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -60,6 +60,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="JsonEventSourceClient2.cs" />
     <Compile Include="SimpleServerEventsFeature.cs" />
     <Compile Include="JsonEventSourceClient.cs" />
   </ItemGroup>

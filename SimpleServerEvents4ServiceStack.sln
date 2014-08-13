@@ -5,6 +5,12 @@ VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleServerEvents4ServiceStack", "SimpleServerEvents4ServiceStack.csproj", "{73C71F6C-1627-417F-A89C-DAF25B39AD82}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleServerSentEvents4ServiceStack.Test", "Test\SimpleServerSentEvents4ServiceStack.Test\SimpleServerSentEvents4ServiceStack.Test.csproj", "{927F5C55-59C5-4D8C-9DF6-10491AC173BA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{6F447B30-FD1E-4B21-95FD-EF0D04906AF0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demo", "Demo", "{A7C74317-D9E8-4E04-BFC0-EAD2C4839562}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,8 +21,15 @@ Global
 		{73C71F6C-1627-417F-A89C-DAF25B39AD82}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73C71F6C-1627-417F-A89C-DAF25B39AD82}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{73C71F6C-1627-417F-A89C-DAF25B39AD82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{927F5C55-59C5-4D8C-9DF6-10491AC173BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{927F5C55-59C5-4D8C-9DF6-10491AC173BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{927F5C55-59C5-4D8C-9DF6-10491AC173BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{927F5C55-59C5-4D8C-9DF6-10491AC173BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{927F5C55-59C5-4D8C-9DF6-10491AC173BA} = {6F447B30-FD1E-4B21-95FD-EF0D04906AF0}
 	EndGlobalSection
 EndGlobal

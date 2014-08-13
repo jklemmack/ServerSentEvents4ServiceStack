@@ -13,7 +13,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Web;
 
-namespace SSServerSentEvents
+namespace SimpleServerEvents
 {
     public class SimpleServerEventsFeature : IPlugin
     {
